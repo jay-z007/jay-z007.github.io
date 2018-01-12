@@ -1,3 +1,4 @@
 name: Jay Bhatt, Portfolio
+author: Jay Bhatt
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title

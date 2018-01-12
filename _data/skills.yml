@@ -1,0 +1,17 @@
+- type: Languages
+  list: C, C++ (basic), Java, python, PROLOG(basic)
+
+- type: Web Technologies
+  list: HTML, CSS, PHP, Javascript, angular.js
+
+- type: Tools and Frameworks
+  list: Pandas, NLTK, git, Weka, Latex, Hadoop, Django, Owncloud, Spring(basic), Ruby on rails (basic)
+
+- type: DBMS
+  list: SQL, MongoDB
+
+- type: Operating Systems
+  list: Linux, Windows
+
+- type: Machine Learning Libraries
+  list: Scikit-Learn, TensorFlow, PyTorch
