@@ -26,6 +26,8 @@ twitter_username: Jay_Bhatt_007
 github_username:  jay-z007
 permalink: /blog/:year/:month/:day/:title
 
+google_analytics: UA-72509668-2
+
 # Build settings
 markdown: kramdown
 theme: minima
