@@ -1,54 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-{% include head.html %}
+  {% include head.html %}
 
-<body>
-	<nav>
-		<ul>
-			<li>
-				<a href="#">Home</a>
-			</li>
-			<li>
-				<a href="#about">About</a>
-			</li>
-			<li>
-				<a href="#skills">Skills</a>
-			</li>
-			<li>
-				<a href="#education">Education</a>
-			</li>
-			<li>
-				<a href="#projects">Projects</a>
-			</li>
-			<li>
-				<a href="#extra">Extra and Co-curricular Activities</a>
-			</li>
+  <body>
 
-			<li>
-				<a href="/blog">Blog</a>
-			</li>
-		</ul>
-	</nav>
-	<div class="container">
+    {% include header.html %}
 
-		{{ content }}
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
 
-	</div>
-	<!-- /.container -->
-	<footer>
-		<ul>
-			<li>
-				<a href="mailto:jbhatt@cs.stonybrook.edu">email</a>
-			</li>
-			<li>
-				<a href="https://github.com/jay-z007">github</a>
-			</li>
-		</ul>
-	</footer>
+    {% include footer.html %}
 
-	{% include scripts.html %}
-
-</body>
+  </body>
 
 </html>

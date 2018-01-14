@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jay Bhatt, Launches Site"
+author: Jay Bhatt
 date: 2018-01-10
 ---
 
