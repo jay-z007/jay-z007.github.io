@@ -1,6 +1,6 @@
 - name: SUNY Stony Brook University
   institution:  College of Engineering and Applied Sciences
-  degree: Master in Science
+  degree: Master of Science
   major: Computer Science
   gpa: 3.92/4
   courses: 
@@ -27,6 +27,7 @@
   institution:  High School
   degree: N/A
   minor: Computer Science
+  gpa:  89.17%
   courses:
     - N/A
   duration: August 2011 - April 2013

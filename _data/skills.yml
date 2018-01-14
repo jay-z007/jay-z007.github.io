@@ -1,17 +1,54 @@
-- type: Languages
-  list: C, C++ (basic), Java, python, PROLOG(basic)
+- type: Machine Learning Libraries
+  list: 
+  - skill:  Scikit-Learn
+    exp:  85
+  - skill:  TensorFlow
+    exp:  85
+  - skill:  PyTorch
+    exp:  75
 
 - type: Web Technologies
-  list: HTML, CSS, PHP, Javascript, angular.js
+  list: 
+  - skill:  HTML/CSS
+    exp:  70
+  - skill:  PHP
+    exp: 75
+  - skill:  JS [JQuery, angular.js]
+    exp: 80
 
-- type: Tools and Frameworks
-  list: Pandas, NLTK, git, Weka, Latex, Hadoop, Django, Owncloud, Spring(basic), Ruby on rails (basic)
+- type: Languages
+  list: 
+  - skill:  C
+    exp: 70
+  - skill:  C++ (basic)
+    exp: 50
+  - skill:  Java 
+    exp: 80
+  - skill:  python 
+    exp: 90
+  - skill:  PROLOG(basic) 
+    exp: 60
 
 - type: DBMS
-  list: SQL, MongoDB
+  list: 
+  - skill:  SQL
+    exp:  80
+  - skill:  MongoDB
+    exp:  60
 
-- type: Operating Systems
-  list: Linux, Windows
 
-- type: Machine Learning Libraries
-  list: Scikit-Learn, TensorFlow, PyTorch
+- type: Tools and Frameworks
+  list: 
+  - skill:  Weka
+    exp:  50
+  - skill:  Hadoop
+    exp:  70
+  - skill:  Django
+    exp:  75
+  - skill:  Owncloud
+    exp:  65
+  - skill:  Spring(basic)
+    exp:  45
+  - skill:  Ruby on rails (basic)
+    exp:  45
+
