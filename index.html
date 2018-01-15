@@ -89,15 +89,10 @@
     </nav>
     <!-- End Navbar -->
 
-    <!-- <div class="fixed-action-btn">
-        <a id="scrollup" class="hoverable waves-effect waves-light btn-floating btn-large red ui-ton-btn-hide">
-            <i class="large material-icons">arrow_upward</i>
-        </a>
-    </div> -->
-
+    
     <div class="wrapper">
         <div class="header header-filter" style="background-image: url('../assets/img/examples/city.jpg');"></div>
-
+        
         <div class="main main-raised">
             <div class="profile-content">
                 <div class="container">
@@ -114,59 +109,63 @@
                     </div>
                     <div class="description text-center grey-text text-darken-2">
                         <blockquote>“ Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. ” -
-                        Rick Osborne </blockquote>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="section text-center">
-                <div class="title">
-                    <h4>
-                        About Me
-                    </h4>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <p>I a first year graduate student at Stony Brook University.</p>
-                        <p>I am best known as a Machine learning enthusiast.</p>
-                        <p>I like to dabble with new technology.</p>
-                        <p>Areas of interest - Machine Learning, Data Science, Computer Vision, Cyber Security
-                        </p>
+                            Rick Osborne </blockquote>
+                        </div>
+                        
                     </div>
                 </div>
-            </div>
-
-            <div class="section">
-                <div class="container">
+                
+                <div class="section text-center">
                     <div class="title">
-                        <h3 class="text-center">
-                            Skills
-                        </h3>
+                        <h4>
+                            About Me
+                        </h4>
                     </div>
                     <div class="row">
-                        <div class="col sm 12 cards-container">
-                            {% for skill in site.data.skills %}
-                            <div class="card card-raised grey lighten-3 hoverable">
-                                <div class="container ">
-                                    <h5>{{skill.type}}</h5>
-                                    {% for val in skill.list %}
-
-                                    <p>{{val.skill}} : {{val.exp}}</p>
-
-                                    <div class="progress">
-                                        <div class="determinate" style="width: {{val.exp}}%"></div>
-                                        {{val.exp}}
-                                    </div>
-                                    <br> {% endfor %}
-                                </div>
-                            </div>
-                            {% endfor %}
+                        <div class="col-md-12">
+                            <p>I a first year graduate student at Stony Brook University.</p>
+                            <p>I am best known as a Machine learning enthusiast.</p>
+                            <p>I like to dabble with new technology.</p>
+                            <p>Areas of interest - Machine Learning, Data Science, Computer Vision, Cyber Security
+                            </p>
                         </div>
-                        <!--                         
-                        <div class="col-md-3 col-sm-12 ">
-                            <div class="card card-raised cyan darken-1 white-text">
-                                <div class="container">
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <div class="container">
+                        <div class="title">
+                            <h3 class="text-center">
+                                Skills
+                            </h3>
+                        </div>
+                        <div class="row">
+                            <div class="col sm 12 cards-container">
+                                {% for skill in site.data.skills %}
+                                <div class="card card-raised grey lighten-3 hoverable">
+                                    <hr>
+                                    <div class="container ">
+                                        <div class="divider"></div>
+                                        <h5 class="text-center">{{skill.type}}</h5>
+                                        <div class="divider"></div>
+                                        <hr>
+                                        {% for val in skill.list %}
+                                        
+                                        <p>{{val.skill}} : {{val.exp}}</p>
+                                        
+                                        <div class="progress">
+                                            <div class="determinate" style="width: {{val.exp}}%"></div>
+                                            {{val.exp}}
+                                        </div>
+                                        <br> {% endfor %}
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <!--                         
+                                <div class="col-md-3 col-sm-12 ">
+                                    <div class="card card-raised cyan darken-1 white-text">
+                                        <div class="container">
                                     <h5 class="card-title white-text">Card Title</h5>
                                     <p>Skill1</p>
                                     <div class="progress">
@@ -179,9 +178,9 @@
                         </div> -->
                     </div>
                 </div>
-
+                
             </div>
-
+            
             <div class="section">
                 <div class="container">
                     <div class="title">
@@ -216,27 +215,27 @@
                                                 </span>
                                                 <p>
                                                     <ul>
-
+                                                        
                                                         <li>
                                                             College of Engineering and Applied Sciences
-
+                                                            
                                                         </li>
                                                         <li>
-
+                                                            
                                                             Master of Science
                                                         </li>
                                                         <li>
                                                             <a class="hoverable btn-floating right btn-large waves-effect waves-light blue" target="_blank" href="https://www.cs.stonybrook.edu/">
                                                                 <i class="material-icons">add</i>
                                                             </a>
-
+                                                            
                                                         </li>
                                                         <li>
-
+                                                            
                                                             Computer Science
                                                         </li>
                                                         <li>
-
+                                                            
                                                             3.92/4
                                                         </li>
                                                     </ul>
@@ -301,7 +300,7 @@
                                             <i class="material-icons">person</i>
                                         </div>
                                     </div>
-
+                                    
                                     <!-- <div class="timeline-event">
                                         <div class="card grey lighten-3 timeline-content">
                                             <div class="card-image waves-effect waves-block waves-light">
@@ -356,20 +355,86 @@
                     </div>
                 </div>
             </div>
-
-        </div>
-    </div>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="copyright pull-right">
-                &copy; 2017, made with
-                <i class="material-icons">favorite</i> by Creative Tim.
-            </div>
-        </div>
-    </footer>
-
-    <!-- Sart Modal -->
+            
+            <div class="section">
+                <div class="container">
+                    <div class="title">
+                        <h3 class="text-center">
+                            Projects
+                        </h3>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col s12 m10 offset-m1 ">
+                            <ul class="collapsible popout" data-collapsible="accordion">
+                                {% for project in site.data.projects %}
+                                <li class="active">
+                                    <div class="collapsible-header active">
+                                        <b>{{ forloop.index }} &nbsp;&nbsp; {{ project.name }}</b> &nbsp;&nbsp; [ {{project.duration}} ]
+                                    </div>
+                                    <div class="collapsible-body">
+                                        <!-- <span> -->
+                                            {% if project.url %}
+                                            <a href="{{project.url}}" target="_blank" class="btn-floating right btn-large waves-effect waves-light red">
+                                                <i class="material-icons">arrow_forward</i>
+                                            </a>
+                                            {% endif %}
+                                            <ul>
+                                                {% for point in project.description %}
+                                                
+                                                <li>
+                                                    {{point}}
+                                                </li>
+                                                <br>
+                                                {% endfor %}
+                                            </ul>
+                                            
+                                            <!-- </span> -->
+                                        </div>
+                                    </li>
+                                    {% endfor %}
+                                    <!-- <li>
+                                        <div class="collapsible-header">
+                                            <i class="material-icons">place</i>Second</div>
+                                            <div class="collapsible-body">
+                                                <span>Lorem ipsum dolor sit amet.</span>
+                                                <a class="secondary-content">
+                                                    <i class="material-icons">send</i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="collapsible-header">
+                                                <i class="material-icons">whatshot</i>Third</div>
+                                                <div class="collapsible-body">
+                                                    <span>Lorem ipsum dolor sit amet.</span>
+                                                </div>
+                                            </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- <div class="fixed-action-btn"> -->
+                            <a id="scrollup" href="#" class="hoverable halfway-fab waves-effect waves-light btn-floating btn-large purple lighten-1">
+                                <i class="large material-icons">arrow_upward</i>
+                            </a>
+                        <!-- </div> -->
+                        
+                    </div>
+                </div>
+                
+                <footer class="footer">
+                    <div class="container">
+                        <div class="copyright pull-right">
+                            &copy; 2017, made with
+                            <i class="material-icons">favorite</i> by Creative Tim.
+                        </div>
+                    </div>
+                </footer>
+                
+                <!-- Sart Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">

@@ -1,54 +1,81 @@
 - name: Live Soccer Match Prediction
   duration: Oct 2017 - Dec 2017
-  description:  Predicts the probability of each possible outcome at any point during the game. Utilizing the initial betting odds as a Prior and the current game state to calculate the probability. Converted a Time Series Prediction to a Classification problem. Also devised a new error metric [Linear offset Error]. Technology used - Python, Scikit-learn.
-  url: Coming Soon
+  description:  
+  - Predicts the probability of each possible outcome at any point during the game. 
+  - Utilizing the initial betting odds as a Prior and the current game state to calculate the probability. 
+  - Converted a Time Series Prediction to a Classification problem. Also devised a new error metric [Linear offset Error]. 
+  - Technology used - Python, Scikit-learn.
+  url: https://github.com/jay-z007/CSE519-2017-111463646/tree/master/Project
 
 - name: Text-to-Image Synthesis
   duration: Nov 2017 - Dec 2017
-  description:  Implementation​ ​of​​ the​ paper​ - Generative​ ​Adversarial​​ Text​ ​to​ Image​ Synthesis [https://arxiv.org/abs/1605.05396]. Built on top of Deep Convolutional Generative Adversarial Network ​[DCGAN] to add text embedding features to the network. Technology​ used - ​Python,​ PyTorch
+  description:  
+  - Implementation​ ​of​​ the​ paper​ - Generative​ ​Adversarial​​ Text​ ​to​ Image​ Synthesis [https://arxiv.org/abs/1605.05396]. 
+  - Built on top of Deep Convolutional Generative Adversarial Network ​[DCGAN] to add text embedding features to the network. 
+  - Technology​ used - ​Python,​ PyTorch
   url: https://github.com/jay-z007/Computer-Vision/tree/master/project
 
-- name: DNS Packet Injector/Detector
-  duration: N/A
-  description:  N/A
-  url: N/A
+# - name: DNS Packet Injector/Detector
+#   duration: Nov 2017
+#   description:  N/A
+#   # url: N/A
 
-- name: Boosted SSH
-  duration: N/A
-  description:  N/A
-  url:  N/A
+# - name: Boosted SSH
+#   duration: Oct 2017
+#   description:  N/A
+#   # url:  N/A
 
-- name: Phenotypic Prediction using transcriptomic features
-  duration: N/A
-  description:  N/A
-  url: N/A
+# - name: Phenotypic Prediction using transcriptomic features
+#   duration: Oct 2017 - Dec 2017
+#   description:  N/A
+#   # url: N/A
 
-- dame: Shakespeare style poem Generator
+- name: Shakespeare style poem Generator
   duration: Jul 2017 - Jul 2017
-  description:  This Application uses Recurrent Neural Networks trained on poems of Shakespeare and it is used further to generate a poem given a seed word. Built two models - Character-based and word-based, the former generated better results. Technology used - Python, NLTK, Recurrent Neural Network 
+  description:  
+  - This Application uses Recurrent Neural Networks trained on poems of Shakespeare.
+  - Can be used to generate a poem given a seed word. 
+  - Built two models - Character-based and word-based, the former generated better results. 
+  - Technology used - Python, NLTK, Recurrent Neural Network 
   url: https://github.com/jay-z007/Shakespeare-style-poem-Generator.git
 
 - name: Google SVHN recognition
   duration: Jun 2017 - Jun 2017
-  description: Implemented Deep Convolutional Neural Network using TensorFlow to recognize the house numbers in Street View House Number dataset. Used Matlab to preprocess the images (i.e. to find the house numbers in entire images). Technology used - Python, TensorFlow
+  description: 
+  - Implemented Deep Convolutional Neural Network using TensorFlow to recognize the house numbers in Street View House Number dataset. 
+  - Used Matlab to preprocess the images (i.e. to find the house numbers in entire images). 
+  - Technology used - Python, TensorFlow
   url: https://github.com/jay-z007/Shakespeare-style-poem-Generator.git
 
 - name: OpenBCI motion simulation
   duration: Jun 2016 - Apr 2017
-  description:  Built an application that classifies the direction of motion based on the EEG waves emitted by the brain using python and scikit-learn. Can be used to move wheelchairs for physically challenged people. Used Power Spectral density for feature extraction and PCA for dimensionality reduction of features. OpenBCI system was used to record the EEG waves, laplacian and bandpass filters were used to preprocess the signal. Technology and Concepts - Python, Scikit-learn, OpenBCI, Laplacian filter, Power Spectral Density, PCA
+  description:  
+  - Built an application that classifies the direction of motion based on the EEG waves emitted by the brain using python and scikit-learn. 
+  - Can be used to move wheelchairs for physically challenged people. 
+  - Used Power Spectral density for feature extraction and PCA for dimensionality reduction of features. 
+  - OpenBCI system was used to record the EEG waves, laplacian and bandpass filters were used to preprocess the signal. 
+  - Technology and Concepts - Python, Scikit-learn, OpenBCI, Laplacian filter, Power Spectral Density, PCA
   url:  https://github.com/jay-z007/BCI_motion_simulation
 
 - name: Large Scale Bloom Filter using MapReduce
   duration: Mar 2017 - Mar 2017
-  description:  Built to check the number of unique customers for an online retail store. Used FNV and Murmur hashing functions, to map the customer names to the bloom filter array.
-  url:  N/A
+  description:  
+  - Built to check the number of unique customers for an online retail store. 
+  - Used FNV and Murmur hashing functions, to map the customer names to the bloom filter array.
+  - Technology used - Java, Hadoop
+  url:  https://github.com/jay-z007/LS-Bloom-Filter
 
 - name: OCR
   duration: Dec 2016 - Dec 2016
-  description:  Devised an OCR system that uses Zoning technique to extract features from the segmented images of texts. Implemented using MLPNN without optimizations and using python and scikit-learn.
+  description:  
+  - Devised an OCR system that uses Zoning technique to extract features from the segmented images of texts. 
+  - Implemented using MLPNN without optimizations
+  - Technology used - Python and Scikit-learn.
   url:  https://github.com/jay-z007/OCR.git
 
 - name: Behavioral finance project
   duration: Feb 2016 - Mar 2016
-  description:  Built an application that decides the best mutual fund policy for a given user on basis of multiple parameters [using methods like Simple Additive Weighting (SAW), Weighted Product Model (WPM) and Analytical Hierarchy Process (AHP)].
+  description:  
+  - Built an application that decides the best mutual fund policy for a given user on basis of multiple parameters 
+  - Used methods like Simple Additive Weighting (SAW), Weighted Product Model (WPM) and Analytical Hierarchy Process (AHP).
   url:  https://github.com/jay-z007/mcdm.git
