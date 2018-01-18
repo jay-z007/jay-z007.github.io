@@ -45,7 +45,7 @@
   - Implemented Deep Convolutional Neural Network using TensorFlow to recognize the house numbers in Street View House Number dataset. 
   - Used Matlab to preprocess the images (i.e. to find the house numbers in entire images). 
   - Technology used - Python, TensorFlow
-  url: https://github.com/jay-z007/Shakespeare-style-poem-Generator.git
+  url: https://github.com/jay-z007/Deep-Learning/tree/master/DL/live_camera_ocr
 
 - name: OpenBCI motion simulation
   duration: Jun 2016 - Apr 2017
