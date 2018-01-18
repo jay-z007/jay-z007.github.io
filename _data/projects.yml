@@ -25,10 +25,16 @@
 #   description:  N/A
 #   # url:  N/A
 
-# - name: Phenotypic Prediction using transcriptomic features
-#   duration: Oct 2017 - Dec 2017
-#   description:  N/A
-#   # url: N/A
+- name: Phenotypic Prediction using transcriptomic features
+  duration: Oct 2017 - Dec 2017
+  description:
+  - Predicting Population origin and Sequencing center from a given output of Salmon.
+  - Performed Feature Engineering to derive features from Equivalance Classes of transcripts.
+  - Used feature selection by calculating the importance of each feature and then used thresholding.
+  - Devised a technique for memory optimization owing to the large scale data.
+  - Achieved an F-Score of 0.89 by using the MLP Classifier.
+  - Technologies and concepts used - Python, Scikit-learn, Pandas, Multi-task prediction.
+  url: https://github.com/jay-z007/Computational-Biology/tree/master/project
 
 - name: Shakespeare style poem Generator
   duration: Jul 2017 - Jul 2017
