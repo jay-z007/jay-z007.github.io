@@ -13,7 +13,7 @@
   - Implementation​ ​of​​ the​ paper​ - Generative​ ​Adversarial​​ Text​ ​to​ Image​ Synthesis [https://arxiv.org/abs/1605.05396]. 
   - Built on top of Deep Convolutional Generative Adversarial Network ​[DCGAN] to add text embedding features to the network. 
   - Technology​ used - ​Python,​ PyTorch
-  url: https://github.com/jay-z007/Computer-Vision/tree/master/project
+  url: https://github.com/jay-z007/Text-to-Image-Synthesis
 
 # - name: DNS Packet Injector/Detector
 #   duration: Nov 2017
