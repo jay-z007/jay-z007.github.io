@@ -15,15 +15,20 @@
   - Technology​ used - ​Python,​ PyTorch
   url: https://github.com/jay-z007/Text-to-Image-Synthesis
 
-# - name: DNS Packet Injector/Detector
-#   duration: Nov 2017
-#   description:  N/A
-#   # url: N/A
+- name: DNS packet Injector/Detector
+  duration: Nov 2017
+  description:  
+  - A python script to test the DNS packet injection attack
+  - Technology used - python, scapy
+  url: https://github.com/jay-z007/Network-Security/tree/master/dns-inject-detect
 
-# - name: Boosted SSH
-#   duration: Oct 2017
-#   description:  N/A
-#   # url:  N/A
+- name: Boosted SSH
+  duration: Oct 2017
+  description:  
+  - Adding an extra layer of security to publicly accessible SSH servers.
+  - Uses the ProxyCommand option of SSH
+  - Technology used - C, OpenSSL, pthreads
+  url:  https://github.com/jay-z007/Network-Security/tree/master/boosted-ssh
 
 - name: Phenotypic Prediction using transcriptomic features
   duration: Oct 2017 - Dec 2017
