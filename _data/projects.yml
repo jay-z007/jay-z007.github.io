@@ -13,22 +13,33 @@
   - Implementation​ ​of​​ the​ paper​ - Generative​ ​Adversarial​​ Text​ ​to​ Image​ Synthesis [https://arxiv.org/abs/1605.05396]. 
   - Built on top of Deep Convolutional Generative Adversarial Network ​[DCGAN] to add text embedding features to the network. 
   - Technology​ used - ​Python,​ PyTorch
-  url: https://github.com/jay-z007/Computer-Vision/tree/master/project
+  url: https://github.com/jay-z007/Text-to-Image-Synthesis
 
-# - name: DNS Packet Injector/Detector
-#   duration: Nov 2017
-#   description:  N/A
-#   # url: N/A
+- name: DNS packet Injector/Detector
+  duration: Nov 2017
+  description:  
+  - A python script to test the DNS packet injection attack
+  - Technology used - python, scapy
+  url: https://github.com/jay-z007/Network-Security/tree/master/dns-inject-detect
 
-# - name: Boosted SSH
-#   duration: Oct 2017
-#   description:  N/A
-#   # url:  N/A
+- name: Boosted SSH
+  duration: Oct 2017
+  description:  
+  - Adding an extra layer of security to publicly accessible SSH servers.
+  - Uses the ProxyCommand option of SSH
+  - Technology used - C, OpenSSL, pthreads
+  url:  https://github.com/jay-z007/Network-Security/tree/master/boosted-ssh
 
-# - name: Phenotypic Prediction using transcriptomic features
-#   duration: Oct 2017 - Dec 2017
-#   description:  N/A
-#   # url: N/A
+- name: Phenotypic Prediction using transcriptomic features
+  duration: Oct 2017 - Dec 2017
+  description:
+  - Predicting Population origin and Sequencing center from a given output of Salmon.
+  - Performed Feature Engineering to derive features from Equivalance Classes of transcripts.
+  - Used feature selection by calculating the importance of each feature and then used thresholding.
+  - Devised a technique for memory optimization owing to the large scale data.
+  - Achieved an F-Score of 0.89 by using the MLP Classifier.
+  - Technologies and concepts used - Python, Scikit-learn, Pandas, Multi-task prediction.
+  url: https://github.com/jay-z007/Computational-Biology/tree/master/project
 
 - name: Shakespeare style poem Generator
   duration: Jul 2017 - Jul 2017
@@ -45,7 +56,7 @@
   - Implemented Deep Convolutional Neural Network using TensorFlow to recognize the house numbers in Street View House Number dataset. 
   - Used Matlab to preprocess the images (i.e. to find the house numbers in entire images). 
   - Technology used - Python, TensorFlow
-  url: https://github.com/jay-z007/Shakespeare-style-poem-Generator.git
+  url: https://github.com/jay-z007/Deep-Learning/tree/master/DL/live_camera_ocr
 
 - name: OpenBCI motion simulation
   duration: Jun 2016 - Apr 2017
