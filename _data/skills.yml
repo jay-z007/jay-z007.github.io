@@ -20,13 +20,13 @@
   list: 
   - skill:  C
     exp: 70
-  - skill:  C++ (basic)
+  - skill:  C++
     exp: 50
   - skill:  Java 
     exp: 80
   - skill:  python 
     exp: 90
-  - skill:  PROLOG(basic) 
+  - skill:  PROLOG 
     exp: 60
 
 - type: DBMS
@@ -47,8 +47,8 @@
     exp:  75
   - skill:  Owncloud
     exp:  65
-  - skill:  Spring(basic)
+  - skill:  Spring
     exp:  45
-  - skill:  Ruby on rails (basic)
+  - skill:  Ruby on rails
     exp:  45
 
